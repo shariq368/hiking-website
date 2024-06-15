@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ subsets: ["latin"] ,
+  weight: ['100','300', '400', '700'],
+  style:"italic",
+  variable:'--font-roboto'
+
+
+ });
 
 export const metadata: Metadata = {
   title: "Hiking Web",
@@ -18,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={`${inter.className} bg-[#e1e6ea]`}>
+      <body className={`${roboto.className} bg-[#e1e6ea]`}>
         <div className="max-w-[90%] mx-auto">
           <Navbar/>
         {children}
