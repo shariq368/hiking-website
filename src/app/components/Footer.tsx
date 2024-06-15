@@ -1,7 +1,10 @@
+import Link from "next/link"
+import { FaFacebook , FaTwitter ,FaInstagram } from "react-icons/fa6";
 
 
 const Footer = () => {
   return (
+    <div id="contact">
     <div
       className="footer-image bg-cover bg-center bg-no-repeat relative min-h-96">
       <div className="mt-20 text-white p-8">
@@ -17,34 +20,34 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4 ">EXPLORE</h3>
             <ul>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                   HOME
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                  GO HIKING
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                   OUR COACHES
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                   BLOG
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                  CONTACT US
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -55,19 +58,20 @@ const Footer = () => {
             <p>HELLO@HIKINGCLUB.COM</p>
             <p>WWW.HIKINGCLUB.COM</p>
             <div className="flex space-x-4 mt-4">
-              <a href="#">
-                <img src="https://placehold.co/24x24" alt="Instagram" />
-              </a>
-              <a href="#">
-                <img src="https://placehold.co/24x24" alt="Facebook" />
-              </a>
-              <a href="#">
-                <img src="https://placehold.co/24x24" alt="Twitter" />
-              </a>
+              <Link href="#">
+              <FaFacebook className="w-5 h-5"/>
+              </Link>
+              <Link href="#">
+              <FaTwitter className="w-5 h-5"/>
+              </Link>
+              <Link href="#">
+              <FaInstagram className="w-5 h-5" />
+              </Link>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

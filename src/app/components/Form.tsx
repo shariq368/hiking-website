@@ -2,6 +2,7 @@
 
 const Form = () => {
   return (
+    <div id="form">
     <div className="mt-10 dark:bg-zinc-800 p-4 text-center">
     <h1 className="text-red-500 font-bold text-2xl md:text-xl lg:text-4xl">
       SUBSCRIBE TO THE MONTHLY EDITION OF THE HIKING CLUB
@@ -18,6 +19,7 @@ const Form = () => {
             </form>
           </div>
         </div>
+  </div>
   </div>
   )
 }
