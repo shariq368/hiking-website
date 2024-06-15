@@ -20,17 +20,17 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4 ">EXPLORE</h3>
             <ul>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="/" className="hover:underline">
                   HOME
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="#explore" className="hover:underline">
                   ABOUT
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="#form" className="hover:underline">
                  GO HIKING
                 </Link>
               </li>
@@ -40,12 +40,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="checkout" className="hover:underline">
                   BLOG
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="#contact" className="hover:underline">
                  CONTACT US
                 </Link>
               </li>
@@ -56,7 +56,7 @@ const Footer = () => {
             <p>ANYWHERE ST, ANY CITY, ST 12345</p>
             <p>+123-456-7890</p>
             <p>HELLO@HIKINGCLUB.COM</p>
-            <p>WWW.HIKINGCLUB.COM</p>
+            <p >WWW.HIKINGCLUB.COM</p>
             <div className="flex space-x-4 mt-4">
               <Link href="#">
               <FaFacebook className="w-5 h-5"/>

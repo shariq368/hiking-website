@@ -4,7 +4,7 @@ import line from "../../../public/picture/lines.png"
 const Hero = () => {
   return (
     <div>
-        <section className=" custom-image relative bg-center sm:bg-right  bg-no-repeat min-h-[100vh]">
+        <section className=" custom-image relative bg-center sm:bg-center  bg-no-repeat min-h-[100vh]">
        
             <div className="container mx-auto px-4 py-24 flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 text-center md:text-left">
