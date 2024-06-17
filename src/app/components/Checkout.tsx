@@ -6,7 +6,7 @@ import Link from "next/link"
 const Checkout = () => {
   return (
     <div id="checkout">
-    <div className="flex flex-col md:flex-row items-center dark:bg-zinc-800 p-6 mt-20 rock-image bg-no-repeat bg-center sm:bg-right relative ">
+    <div className="flex flex-col md:flex-row items-center p-6 mt-20 rock-image bg-no-repeat bg-center sm:bg-right relative ">
           <div className="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
             <h2 className="text-xl md:text-4xl font-bold text-orange-500 mb-2">CHECK OUT OUR ULTIMATE <br /> GUIDE TO HIKING!</h2>
             <p className="text-slate-950 dark:text-zinc-300 mb-4">A complete guide to sustainable <br /> and environmentally safe hiking.</p>

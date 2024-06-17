@@ -7,7 +7,7 @@ const Explore = () => {
         <div className="mt-40">
             <div className="text-center mb-8">
             <h2 className="text-5xl font-bold text-red-500 ">EXPLORE THE BEST TRIPS</h2>
-            <p className="mt-4 text-zinc-600 text-xl dark:text-zinc-300">Lorem ipsum dolor sit amet, adipisicing elit. Veniam, facilis.</p>
+            <p className="mt-4 text-slate-600 text-xl dark:text-zinc-300">Lorem ipsum dolor sit amet, adipisicing elit. Veniam, facilis.</p>
             </div>
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2">
@@ -19,17 +19,17 @@ const Explore = () => {
                             <div className="mt-8 space-y-8">
                 <div>
                   <h3 className="text-2xl font-semibold text-red-600 dark:text-red-400">HIKING EXPEDITION</h3>
-                  <p className="mt-2 text-zinc-600 dark:text-zinc-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+                  <p className="mt-2 text-slate-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
                   <button className="mt-4 bg-red-500 text-white py-2 px-4 rounded-full hover:scale-105 duration-300 ">Read More</button>
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-red-600 dark:text-red-400">TREKKING EXPEDITION</h3>
-                  <p className="mt-2 text-zinc-600 dark:text-zinc-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+                  <p className="mt-2 text-slate-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
                   <button className="mt-4 bg-red-500 text-white  py-2 px-4 rounded-full hover:scale-105 duration-300">Read More</button>
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-red-600 dark:text-red-400">CANYOUNING EXPEDITION</h3>
-                  <p className="mt-2 text-zinc-600 dark:text-zinc-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+                  <p className="mt-2 text-slate-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
                   <button className="mt-4 bg-red-500 text-white py-2 px-4 rounded-full hover:scale-105 duration-300">Read More</button>
                 </div>
               </div>

@@ -19,7 +19,7 @@ const Wonder = () => {
                 <div className="absolute inset-0 bg-white dark:bg-zinc-700 rounded-full mix-blend-multiply"></div>
               </div>
               <h3 className="mt-4 text-xl font-semibold">JESSICA <span className="text-red-500">OWEN</span></h3>
-              <p className="text-zinc-600 dark:text-zinc-300 mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
+              <p className="text-slate-600  mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 text-center">
               <div className="relative inline-block">
@@ -29,7 +29,7 @@ const Wonder = () => {
                 <div className="absolute inset-0 bg-white dark:bg-zinc-700 rounded-full mix-blend-multiply"></div>
               </div>
               <h3 className="mt-4 text-xl font-semibold">ROBERT <span className="text-red-500">DOE</span></h3>
-              <p className="text-zinc-600 dark:text-zinc-300 mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
+              <p className="text-slate-600 mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 text-center">
               <div className="relative inline-block">
@@ -38,7 +38,7 @@ const Wonder = () => {
                 <div className="absolute inset-0 bg-white dark:bg-zinc-700 rounded-full mix-blend-multiply"></div>
               </div>
               <h3 className="mt-4 text-xl font-semibold">JOHN <span className="text-red-500">BROWN</span></h3>
-              <p className="text-zinc-600 dark:text-zinc-300 mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
+              <p className="text-slate-600  mt-2 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam fugit. Qui!</p>
             </div>
           </div>
     </div>
